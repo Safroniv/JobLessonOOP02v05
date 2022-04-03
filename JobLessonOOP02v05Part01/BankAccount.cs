@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JobLessonOOP02v05Part02
+namespace JobLessonOOP02v05Part03
 {
     partial class BankAccount
     {
