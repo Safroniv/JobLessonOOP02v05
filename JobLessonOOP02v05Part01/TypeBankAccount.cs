@@ -1,4 +1,4 @@
-﻿namespace JobLessonOOP02v05Part01
+﻿namespace JobLessonOOP02v05Part02
 {
     public enum TypeBankAccount
     {
