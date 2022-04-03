@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             BankAccount bankAccount = new BankAccount();
-            bankAccount.GetNumberBankAccount(1);
+            bankAccount.GetNumberBankAccount();
             bankAccount.GetBallanceBankAccount(100.1m);
             bankAccount.GetTypeBankAccount(TypeBankAccount.DEBET);
             bankAccount.Print();

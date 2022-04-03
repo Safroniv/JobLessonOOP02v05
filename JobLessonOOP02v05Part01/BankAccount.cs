@@ -7,7 +7,10 @@ namespace JobLessonOOP02v05Part02
         private int _numberBankAccount;
         private decimal _ballanceBankAccount;
         private TypeBankAccount _typeBankAccount;
-        public void GetNumberBankAccount(int numberBankAccount) {; _numberBankAccount = numberBankAccount; }
+
+        private static int _generateNumberBankAccount=1;
+        public static int GetgenerateNumberBankAccount(){ return _generateNumberBankAccount++; }
+        public void GetNumberBankAccount() {; _numberBankAccount = GetgenerateNumberBankAccount(); }
         public int SetNumberBankAccount() { return _numberBankAccount; }
         public void GetBallanceBankAccount(decimal ballanceBankAccount) { _ballanceBankAccount = ballanceBankAccount; }
         public decimal SetBallanceBankAccount() { return _ballanceBankAccount; }
